@@ -6,11 +6,12 @@ import {
   Picture,
   Skia,
   Group,
+  createPicture,
 } from "@shopify/react-native-skia";
 
 export const PictureExample = () => {
   // Create picture
-  const picture = usePicture(
+  const picture = createPicture(
     { x: 0, y: 0, width: 100, height: 100 },
     (canvas) => {
       const paint = Skia.Paint();

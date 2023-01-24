@@ -146,13 +146,13 @@ export const API = () => {
           title: "↕️ UseCanvas",
         }}
       />
-      {/* <Stack.Screen
+      <Stack.Screen
         name="Reanimated"
         component={Reanimated}
         options={{
           title: "🐎 Reanimated",
         }}
-      /> */}
+      />
     </Stack.Navigator>
   );
 };
