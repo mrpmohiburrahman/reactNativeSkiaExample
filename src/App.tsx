@@ -38,50 +38,34 @@ const App = () => {
             }}
           />
           <Stack.Screen name="API" component={API} />
+          <Stack.Screen name="Breathe" component={Breathe} />
+          <Stack.Screen name="Filters" component={Filters} />
+          {/* <Stack.Screen name="Gooey" component={Gooey} /> */}
+          <Stack.Screen name="Hue" component={Hue} />
+          <Stack.Screen
+            name="Matrix"
+            component={Matrix}
+            options={{ header: () => null }}
+          />
+          {/* <Stack.Screen
+            name="Aurora"
+            component={Aurora}
+            options={{
+              header: () => null,
+            }}
+          /> */}
+
           {/* <Stack.Screen
             name="Vertices"
             component={Vertices}
             options={{
               header: () => null,
             }}
-            />
-            <Stack.Screen name="Breathe" component={Breathe} />
-            <Stack.Screen name="API" component={API} />
-          <Stack.Screen name="Filters" component={Filters} />
-          <Stack.Screen name="Gooey" component={Gooey} />
-          <Stack.Screen name="Hue" component={Hue} />
-          <Stack.Screen
-            name="Matrix"
-            component={Matrix}
-            options={{
-              header: () => null,
-            }}
-          />
-          <Stack.Screen
-            name="Severance"
-            component={Severance}
-            options={{
-              header: () => null,
-            }}
-          />
-          <Stack.Screen
-            name="Aurora"
-            component={Aurora}
-            options={{
-              header: () => null,
-            }}
-          />
+          /> */}
+
           <Stack.Screen
             name="Glassmorphism"
             component={Glassmorphism}
-            options={{
-              header: () => null,
-            }}
-          />
-          <Stack.Screen name="Neumorphism" component={Neumorphism} />
-          <Stack.Screen
-            name="Wallpaper"
-            component={Wallpaper}
             options={{
               header: () => null,
             }}
@@ -94,8 +78,23 @@ const App = () => {
             }}
           />
           <Stack.Screen name="Graphs" component={GraphsScreen} />
+          <Stack.Screen name="Neumorphism" component={Neumorphism} />
+          <Stack.Screen
+            name="Wallpaper"
+            component={Wallpaper}
+            options={{
+              header: () => null,
+            }}
+          />
+          {/* <Stack.Screen
+            name="Severance"
+            component={Severance}
+            options={{
+              header: () => null,
+            }}
+          /> */}
           <Stack.Screen name="Animation" component={AnimationExample} />
-          <Stack.Screen name="Performance" component={PerformanceDrawingTest} /> */}
+          <Stack.Screen name="Performance" component={PerformanceDrawingTest} />
         </Stack.Navigator>
       </NavigationContainer>
     </>
