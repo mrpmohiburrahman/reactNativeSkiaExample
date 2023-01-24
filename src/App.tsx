@@ -47,21 +47,21 @@ const App = () => {
             component={Matrix}
             options={{ header: () => null }}
           />
-          {/* <Stack.Screen
+          <Stack.Screen
             name="Aurora"
             component={Aurora}
             options={{
               header: () => null,
             }}
-          /> */}
+          />
 
-          {/* <Stack.Screen
+          <Stack.Screen
             name="Vertices"
             component={Vertices}
             options={{
               header: () => null,
             }}
-          /> */}
+          />
 
           <Stack.Screen
             name="Glassmorphism"
@@ -86,13 +86,13 @@ const App = () => {
               header: () => null,
             }}
           />
-          {/* <Stack.Screen
+          <Stack.Screen
             name="Severance"
             component={Severance}
             options={{
               header: () => null,
             }}
-          /> */}
+          />
           <Stack.Screen name="Animation" component={AnimationExample} />
           <Stack.Screen name="Performance" component={PerformanceDrawingTest} />
         </Stack.Navigator>

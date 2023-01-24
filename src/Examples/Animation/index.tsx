@@ -10,11 +10,11 @@ import { SpringBackTouchAnimation } from "./SpringBackTouch";
 export const AnimationExample: React.FC = () => {
   return (
     <View style={styles.container}>
-      <SimpleAnimation />
-      <InterpolationWithEasing />
-      <AnimationWithTouchHandler />
+      {/* <SimpleAnimation /> */}
+      {/* <InterpolationWithEasing /> */}
+      {/* <AnimationWithTouchHandler /> */}
       <AnimateTextOnPath />
-      <SpringBackTouchAnimation />
+      {/* <SpringBackTouchAnimation /> */}
     </View>
   );
 };
