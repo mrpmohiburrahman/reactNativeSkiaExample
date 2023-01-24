@@ -37,15 +37,16 @@ const App = () => {
               title: "🎨 Skia",
             }}
           />
-          <Stack.Screen
+          <Stack.Screen name="API" component={API} />
+          {/* <Stack.Screen
             name="Vertices"
             component={Vertices}
             options={{
               header: () => null,
             }}
-          />
-          <Stack.Screen name="API" component={API} />
-          <Stack.Screen name="Breathe" component={Breathe} />
+            />
+            <Stack.Screen name="Breathe" component={Breathe} />
+            <Stack.Screen name="API" component={API} />
           <Stack.Screen name="Filters" component={Filters} />
           <Stack.Screen name="Gooey" component={Gooey} />
           <Stack.Screen name="Hue" component={Hue} />
@@ -94,7 +95,7 @@ const App = () => {
           />
           <Stack.Screen name="Graphs" component={GraphsScreen} />
           <Stack.Screen name="Animation" component={AnimationExample} />
-          <Stack.Screen name="Performance" component={PerformanceDrawingTest} />
+          <Stack.Screen name="Performance" component={PerformanceDrawingTest} /> */}
         </Stack.Navigator>
       </NavigationContainer>
     </>

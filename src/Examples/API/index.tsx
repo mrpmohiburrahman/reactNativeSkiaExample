@@ -48,6 +48,35 @@ export const API = () => {
         }}
       />
       <Stack.Screen
+        name="Clipping"
+        component={Clipping}
+        options={{
+          title: "🎭 Clipping & Masking",
+        }}
+      />
+
+      <Stack.Screen
+        name="Touch"
+        component={Touch}
+        options={{
+          title: "🖱 Touch Handling",
+        }}
+      />
+      <Stack.Screen
+        name="PathEffect"
+        component={PathEffectDemo}
+        options={{
+          title: "⭐️ Path Effects",
+        }}
+      />
+      <Stack.Screen
+        name="Transform"
+        component={Transform}
+        options={{
+          title: "🔄 Transformations",
+        }}
+      />
+      <Stack.Screen
         name="ColorFilter"
         component={ColorFilter}
         options={{
@@ -69,13 +98,6 @@ export const API = () => {
         }}
       />
       <Stack.Screen
-        name="Clipping"
-        component={Clipping}
-        options={{
-          title: "🎭 Clipping & Masking",
-        }}
-      />
-      <Stack.Screen
         name="Path"
         component={PathExample}
         options={{
@@ -83,31 +105,10 @@ export const API = () => {
         }}
       />
       <Stack.Screen
-        name="PathEffect"
-        component={PathEffectDemo}
-        options={{
-          title: "⭐️ Path Effects",
-        }}
-      />
-      <Stack.Screen
-        name="Transform"
-        component={Transform}
-        options={{
-          title: "🔄 Transformations",
-        }}
-      />
-      <Stack.Screen
         name="SVG"
         component={SVG}
         options={{
           title: "🖋 SVG",
-        }}
-      />
-      <Stack.Screen
-        name="Touch"
-        component={Touch}
-        options={{
-          title: "🖱 Touch Handling",
         }}
       />
       <Stack.Screen
@@ -131,13 +132,13 @@ export const API = () => {
           title: "🖼 Picture",
         }}
       />
-      <Stack.Screen
+      {/* <Stack.Screen
         name="Freeze"
         component={FreezeExample}
         options={{
           title: "❄️ Freeze",
         }}
-      />
+      /> */}
       <Stack.Screen
         name="UseCanvas"
         component={UseCanvas}
@@ -145,13 +146,13 @@ export const API = () => {
           title: "↕️ UseCanvas",
         }}
       />
-      <Stack.Screen
+      {/* <Stack.Screen
         name="Reanimated"
         component={Reanimated}
         options={{
           title: "🐎 Reanimated",
         }}
-      />
+      /> */}
     </Stack.Navigator>
   );
 };
